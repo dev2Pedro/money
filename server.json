@@ -1,0 +1,68 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 59,
+      "createdAt": "2025-03-21T19:03:02.280Z"
+    },
+    {
+      "id": "2",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 10400,
+      "createdAt": "2024-03-21T19:03:02.280Z"
+    },
+    {
+      "id": "3",
+      "description": "Gastos do mês",
+      "type": "outcome",
+      "category": "Contas",
+      "price": 2000,
+      "createdAt": "2025-04-21T19:03:02.280Z"
+    },
+    {
+      "id": "4",
+      "description": "Curso",
+      "type": "outcome",
+      "category": "curso",
+      "price": 2000,
+      "createdAt": "2025-04-21T19:03:02.280Z"
+    },
+    {
+      "id": "a922",
+      "description": "teste",
+      "price": 100,
+      "category": "teste",
+      "type": "income",
+      "createdAt": "2025-05-15T19:21:48.177Z"
+    },
+    {
+      "id": "5ec1",
+      "description": "Faculdade",
+      "price": 590,
+      "category": "DESPESAS",
+      "type": "outcome",
+      "createdAt": "2025-05-15T19:23:00.748Z"
+    },
+    {
+      "id": "d879",
+      "description": "Salario",
+      "price": 5000,
+      "category": "salario",
+      "type": "income",
+      "createdAt": "2025-05-15T19:25:29.777Z"
+    },
+    {
+      "id": "c518",
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-05-15T19:50:00.645Z"
+    }
+  ]
+}
