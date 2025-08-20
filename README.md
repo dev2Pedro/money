@@ -1,54 +1,82 @@
-# React + TypeScript + Vite
+# 💰 dtMoney
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Visão Geral do Projeto
 
-Currently, two official plugins are available:
+O **dtMoney** é uma aplicação web intuitiva e eficiente, desenvolvida durante a trilha de React do Ignite (Rocketseat), com o objetivo principal de simplificar o controle financeiro pessoal. Ele permite que os usuários registrem e visualizem de forma clara suas movimentações financeiras, oferecendo um panorama rápido de entradas, saídas e o saldo total.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Com uma interface amigável e responsiva, o dtMoney foi projetado para proporcionar uma experiência de usuário fluida, facilitando a gestão das finanças diárias.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades Principais
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 1. Resumo Financeiro Interativo
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+### 2. Listagem Detalhada de Transações
+
+### 3. Cadastro Simplificado de Transações
+
+## 🛠️ Tecnologias Utilizadas
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,typescript,vite" alt="React, TypeScript, Vite" />
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white" alt="Styled Components" />
+  <img src="https://img.shields.io/badge/miragejs-000000?style=for-the-badge&logo=javascript&logoColor=yellow" alt="MirageJS" />
+  <img src="https://img.shields.io/badge/axios-5A29E4?style=for-for-the-badge&logo=axios&logoColor=white" alt="Axios" />
+</p>
+
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário interativas.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática, melhorando a segurança e a manutenibilidade do código.
+- **Vite:** Ferramenta de build rápida para projetos web modernos, otimizando o desenvolvimento e a performance.
+- **Styled Components:** Biblioteca para estilização de componentes React utilizando CSS-in-JS, promovendo a modularidade e a reutilização de estilos.
+- **MirageJS:** Uma API mocking library que simula um backend completo, permitindo o desenvolvimento frontend de forma independente.
+- **Axios:** Cliente HTTP baseado em Promises para fazer requisições a APIs, facilitando a comunicação com o backend (simulado pelo MirageJS).
+
+## ⚙️ Como Configurar e Rodar o Projeto
+
+### 📥 Clonar o Repositório
+
+```bash
+git clone https://github.com/SEU_USUARIO/dtMoney.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📂 Acessar o Diretório do Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+```bash
+cd dtMoney
 ```
+
+### 📦 Instalar as Dependências
+
+Utilize `npm` ou `yarn` para instalar todas as dependências do projeto:
+
+```bash
+npm install
+# ou
+yarn
+```
+
+### ▶️ Rodar a Aplicação
+
+Após a instalação das dependências, inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O projeto estará acessível em seu navegador no endereço: `http://localhost:3000`
+
+## 💡 Aprendizados e Conceitos Reforçados
+
+O desenvolvimento do dtMoney foi uma excelente oportunidade para aprofundar e consolidar diversos conceitos fundamentais do ecossistema React e do desenvolvimento web moderno:
+
+- **Hooks do React:** Prática intensiva com `useState` para gerenciamento de estado local e `useEffect` para lidar com efeitos colaterais e o ciclo de vida dos componentes.
+- **Estruturação e Componentização:** Aplicação de princípios de design de software para criar uma arquitetura de componentes modular e reutilizável, promovendo a escalabilidade e a organização do código.
+- **Consumo de API (Fake):** Experiência com a integração de dados utilizando o MirageJS para simular um backend, o que permitiu o desenvolvimento frontend independente e ágil.
+- **Gerenciamento de Estado Global:** Implementação de soluções para gerenciar o estado da aplicação de forma centralizada, garantindo a atualização dinâmica e consistente dos dados entre diferentes componentes.
+- **TypeScript:** Utilização do TypeScript para adicionar tipagem estática ao projeto, resultando em um código mais robusto, com menos erros em tempo de execução e maior facilidade de manutenção.
+
+## 📝 Observação do Desenvolvedor
+
+Este projeto foi concebido e desenvolvido no contexto do curso Ignite da Rocketseat. Ele serve como um artefato prático para demonstrar a aplicação de conceitos de React em um cenário real de gerenciamento financeiro, consolidando o aprendizado e as melhores práticas de desenvolvimento frontend.
+
+---
+
