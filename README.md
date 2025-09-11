@@ -1,4 +1,4 @@
-# 💰 dtMoney
+# 💰 DtMoney
 
 ## 🚀 Visão Geral do Projeto
 
