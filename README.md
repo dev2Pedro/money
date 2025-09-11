@@ -44,7 +44,7 @@ git clone https://github.com/SEU_USUARIO/dtMoney.git
 cd dtMoney
 ```
 
-### 📦 Instalar as Depen
+### 📦 Instalar as Dependên
 
 Utilize `npm` ou `yarn` para instalar todas as dependências do projeto:
 
