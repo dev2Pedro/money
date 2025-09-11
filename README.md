@@ -2,7 +2,7 @@
 
 ## 🚀 Visão Geral do Projeto
 
-O **dtMoney** é uma aplicação web intuitiva e eficiente, desenvolvida durante a trilha de React do Ignite (Rocketseat), com o objetivo principal de simplificar o controle financeiro pessoal. Ele permite que os usuários registrem e visualizem de forma clara suas movimentações financeiras, oferecendo um panorama rápido de entradas, saídas e o saldo total.
+O **DtMoney** é uma aplicação web intuitiva e eficiente, desenvolvida durante a trilha de React do Ignite (Rocketseat), com o objetivo principal de simplificar o controle financeiro pessoal. Ele permite que os usuários registrem e visualizem de forma clara suas movimentações financeiras, oferecendo um panorama rápido de entradas, saídas e o saldo total.
 
 Com uma interface amigável e responsiva, o dtMoney foi projetado para proporcionar uma experiência de usuário fluida, facilitando a gestão das finanças diárias.
 
